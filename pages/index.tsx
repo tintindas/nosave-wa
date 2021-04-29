@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Container from '../components/Container'
 
 export default function Home() {
 	return (
@@ -9,8 +10,13 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main>
-				<h1 className='text-lg'>NextJS and Tailwind Starter</h1>
+			<main
+				style={{
+					backgroundImage: 'url("/wa-background.jpg")'
+				}}
+				className='flex justify-center items-center h-screen'
+			>
+				<Container />
 			</main>
 
 			<footer></footer>
