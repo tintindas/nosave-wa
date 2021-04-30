@@ -1,15 +1,13 @@
-# NextJS Tailwind Starter Template
+# No Save Whatsapp
 
-This is a simple starter template using NextJS and Tailwind (and Typescript).
+Text any number on Whatsapp without having to first save it to your phone.
 
-## Getting Started
+![website preview](https://user-images.githubusercontent.com/47525983/116707032-dcb21880-a9eb-11eb-9db8-50cee58de66d.png)
 
-First, run the development server:
+Check it out [here](https://nosave-wa.vercel.app/)!
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Contributing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The more the merrier!
+
+Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.

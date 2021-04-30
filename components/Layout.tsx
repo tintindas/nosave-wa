@@ -6,7 +6,7 @@ const Layout = () => {
 	return (
 		<div>
 			<Head>
-				<title>NextJS and Tailwind Starter</title>
+				<title>No Save WA</title>
 				<meta name='description' content='NextJS and Tailwind Starter' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
