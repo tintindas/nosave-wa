@@ -38,7 +38,7 @@ const NumberForm = ({ setLink }) => {
 					id='country'
 					list='country-list'
 					name='country'
-					className='rounded block mt-1'
+					className='rounded block mt-1 px-2 py-1'
 					onChange={(e) => {
 						setCountryCode(e.target.value)
 						if (e.target.value in countries) {
@@ -68,7 +68,7 @@ const NumberForm = ({ setLink }) => {
 					id='phone'
 					name='phone'
 					pattern='^[0-9]+$'
-					className='rounded block mt-1'
+					className='rounded block mt-1 px-2 py-1'
 					onChange={(e) => {
 						setNumber(e.target.value)
 						setNumberError(e.target.value == '')

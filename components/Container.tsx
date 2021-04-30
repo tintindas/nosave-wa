@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import Footer from './Footer'
 import NumberForm from './NumberForm'
 const Container = () => {
 	const [link, setLink] = useState('')
 	return (
-		<div className='flex flex-col space-y-20 content-between justify-center items-center p-10'>
+		<div className='flex flex-col space-y-12 content-between justify-center items-center p-10'>
 			<header
 				style={{ backgroundColor: '#fff5c4', color: '#696b54' }}
 				className='p-1 rounded mt-6 shadow-md'
@@ -26,6 +27,8 @@ const Container = () => {
 					Start Chatting
 				</a>
 			</p>
+
+			<Footer />
 		</div>
 	)
 }
