@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Container from './Container'
+import Navbar from './Navbar'
 
 const Layout = () => {
 	return (
@@ -10,14 +11,18 @@ const Layout = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main
+			<div
 				style={{
 					backgroundImage: 'url("/wa-background.jpg")'
 				}}
-				className='flex justify-center items-center h-screen'
+				className='h-screen'
 			>
-				<Container />
-			</main>
+				<Navbar />
+
+				<main>
+					<Container />
+				</main>
+			</div>
 		</div>
 	)
 }
