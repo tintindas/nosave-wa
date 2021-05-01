@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Footer from './Footer'
 import NumberForm from './NumberForm'
 const Container = () => {
 	const [link, setLink] = useState('')
@@ -27,8 +26,6 @@ const Container = () => {
 					Start Chatting
 				</a>
 			</p>
-
-			<Footer />
 		</div>
 	)
 }
