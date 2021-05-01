@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
+		"prebuild": "NODE_ENV=production tailwind build ./styles/vendors.css -o ./styles/tailwind.css",
 		"build": "next build",
 		"start": "next start",
 		"build:style": "tailwind build ./styles/vendors.css -o ./styles/tailwind.css"

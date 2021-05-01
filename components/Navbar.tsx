@@ -4,7 +4,7 @@ const Navbar = () => {
 			style={{ backgroundColor: '#3a5564' }}
 			className='h-16 md:h-10 flex items-center self-start w-screen'
 		>
-			<p className='text-lg md:text-base font-bold text-white ml-4'>
+			<p className='text-lg font-bold md:text-base text-white ml-4'>
 				No Save Whatsapp
 			</p>
 
