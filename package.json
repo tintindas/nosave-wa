@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build": "build:style && next build",
+		"build": "next build",
 		"start": "next start",
 		"build:style": "tailwind build ./styles/vendors.css -o ./styles/tailwind.css"
 	},
