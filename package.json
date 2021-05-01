@@ -10,6 +10,7 @@
 		"build:style": "tailwind build ./styles/vendors.css -o ./styles/tailwind.css"
 	},
 	"dependencies": {
+		"autoprefixer": "^10.2.5",
 		"next": "10.2.0",
 		"react": "17.0.2",
 		"react-dom": "17.0.2"
