@@ -32,7 +32,7 @@ const Layout = () => {
 				style={{
 					backgroundImage: 'url("/wa-background.jpg")'
 				}}
-				className='h-screen overflow-y-hidden'
+				className='h-screen'
 			>
 				<Navbar />
 

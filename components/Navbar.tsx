@@ -2,9 +2,9 @@ const Navbar = () => {
 	return (
 		<nav
 			style={{ backgroundColor: '#3a5564' }}
-			className='h-16 md:h-10 flex items-center'
+			className='h-10 flex items-center'
 		>
-			<p className='text-white text-lg md:text-base ml-4'>No Save Whatsapp</p>
+			<p className='text-white ml-4'>No Save Whatsapp</p>
 
 			<a href='https://github.com/tintindas/nosave-wa' className='ml-auto mr-4'>
 				<svg
