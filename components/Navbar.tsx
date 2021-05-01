@@ -2,7 +2,7 @@ const Navbar = () => {
 	return (
 		<nav
 			style={{ backgroundColor: '#3a5564' }}
-			className='h-10 flex items-center'
+			className='h-10 flex items-center self-start w-screen'
 		>
 			<p className='text-white ml-4'>No Save Whatsapp</p>
 

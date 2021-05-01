@@ -1,10 +1,16 @@
 import Head from 'next/head'
 import Container from './Container'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Layout = () => {
 	return (
-		<div>
+		<main
+			style={{
+				backgroundImage: 'url("/wa-background.jpg")'
+			}}
+			className='h-screen flex flex-col'
+		>
 			<Head>
 				<title>No Save WA</title>
 				<meta name='description' content='NextJS and Tailwind Starter' />
@@ -28,19 +34,12 @@ const Layout = () => {
 				<link rel='manifest' href='/site.webmanifest' />
 			</Head>
 
-			<div
-				style={{
-					backgroundImage: 'url("/wa-background.jpg")'
-				}}
-				className='h-screen'
-			>
-				<Navbar />
+			<Navbar />
 
-				<main>
-					<Container />
-				</main>
-			</div>
-		</div>
+			<Container />
+
+			<Footer />
+		</main>
 	)
 }
 

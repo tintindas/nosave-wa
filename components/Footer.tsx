@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
 		<footer
-			className='text-sm rounded p-1 px-4'
+			className='text-sm rounded p-1 px-4 w-40 self-center mt-auto mb-16 md:mb-4'
 			style={{ backgroundColor: '#d4eaf4', color: '#687175' }}
 		>
 			Made by
