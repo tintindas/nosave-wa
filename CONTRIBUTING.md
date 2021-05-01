@@ -121,3 +121,7 @@ Observe the coding style of the project and add your code also in the same style
 ## License
 
 By contributing, you agree that your contributions will be licensed under its MIT License.
+
+## Acknowledgements
+
+This CONTRIBUTING.md file has been created using [this file](https://github.com/Ashutosh00710/github-readme-activity-graph/blob/main/CONTRIBUTING.md) as the base template. 
